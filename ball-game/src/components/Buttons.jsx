@@ -6,7 +6,7 @@ const Buttons =(props)=> {
       <button onClick={props.strikeCounter} data-testid="strikes"> Strike </button>
       <button onClick={props.ballCounter} data-testid="balls"> Ball </button>
       <button onClick={props.foulCounter} data-testid="fouls"> Foul </button>
-      <button onClick={props.hitCounter}data-testid="hits"> Hit </button>
+      <button onClick={props.hitCounter} data-testid="hits"> Hit </button>
     </div>
   );
 }
